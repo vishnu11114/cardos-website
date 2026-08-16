@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "exportedAt": "2026-08-13T22:07:33.000Z",
+  "cards": {
+    "axis-atlas": {
+      "name": "Axis Bank Atlas Credit Card",
+      "bank": "Axis Bank",
+      "image": "axis-atlas.png",
+      "zoom": 1.0,
+      "scale": 1.0,
+      "positionX": 0,
+      "positionY": 0
+    },
+    "hdfc-infinia": {
+      "name": "HDFC Infinia Metal Edition Credit Card",
+      "bank": "HDFC Bank",
+      "image": "hdfc-infinia.png",
+      "zoom": 1.0,
+      "scale": 1.0,
+      "positionX": 0,
+      "positionY": 0
+    },
+    "sbi-elite": {
+      "name": "SBI Card ELITE",
+      "bank": "SBI Card",
+      "image": "sbi-elite.png",
+      "zoom": 1.0,
+      "scale": 1.0,
+      "positionX": 0,
+      "positionY": 0
+    },
+    "icici-emeralde": {
+      "name": "ICICI Bank Emeralde Credit Card",
+      "bank": "ICICI Bank",
+      "image": "icici-emeralde.png",
+      "zoom": 1.0,
+      "scale": 1.0,
+      "positionX": 0,
+      "positionY": 0
+    },
+    "amex-platinum": {
+      "name": "American Express Platinum Card",
+      "bank": "American Express",
+      "image": "amex-platinum.png",
+      "zoom": 1.0,
+      "scale": 1.0,
+      "positionX": 0,
+      "positionY": 0
+    },
+    "federal-imperio": {
+      "name": "Federal Bank Imperio Credit Card",
+      "bank": "Federal Bank",
+      "image": "federal-imperio.png",
+      "zoom": 1.0,
+      "scale": 1.0,
+      "positionX": 0,
+      "positionY": 0
+    },
+    "indusind-pioneer-legacy": {
+      "name": "IndusInd Bank Pioneer Legacy Credit Card",
+      "bank": "IndusInd Bank",
+      "image": "indusind-pioneer-legacy.png",
+      "zoom": 1.0,
+      "scale": 1.0,
+      "positionX": 0,
+      "positionY": 0
+    },
+    "kotak-cashback-plus": {
+      "name": "Kotak Cashback+ Credit Card",
+      "bank": "Kotak Mahindra Bank",
+      "image": "kotak-cashback-plus.png",
+      "zoom": 1.0,
+      "scale": 1.0,
+      "positionX": 0,
+      "positionY": 0
+    },
+    "idfc-gaj": {
+      "name": "IDFC FIRST Bank Gaj Credit Card",
+      "bank": "IDFC FIRST Bank",
+      "image": "idfc-gaj.png",
+      "zoom": 1.0,
+      "scale": 1.0,
+      "positionX": 0,
+      "positionY": 0
+    }
+  }
+}
