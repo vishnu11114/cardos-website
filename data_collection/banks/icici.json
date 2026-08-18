@@ -1,0 +1,50 @@
+[
+  {
+    "id": "icici_emeralde",
+    "bankId": "icici",
+    "bankName": "ICICI Bank",
+    "cardName": "ICICI Emeralde Private Metal",
+    "variantName": "Metal Edition",
+    "network": "Mastercard",
+    "tier": "SuperPremium",
+    "image": "/cards/icici-emeralde.png",
+    "joiningFee": 12499,
+    "annualFee": 12499,
+    "annualFeeWaiverThreshold": 1000000,
+    "feeWaiverExclusions": ["Rent", "Wallet"],
+    "rewardCurrencyName": "ICICI Reward Points",
+    "baseRewardRatePercentage": 3.0,
+    "pointValuationINR": {
+      "flightRedemption": 1.00,
+      "hotelRedemption": 1.00,
+      "statementCredit": 0.25,
+      "voucherRedemption": 0.50
+    },
+    "acceleratedCategories": [],
+    "excludedCategories": [
+      { "category": "Fuel", "earnsRewards": false, "hasSurcharge": true }
+    ],
+    "voucherMultipliers": [],
+    "partnerTransfers": [],
+    "loungeAccess": {
+      "domestic": {
+        "visitsPerQuarter": 99,
+        "isSpendBased": false,
+        "guestAllowed": true
+      },
+      "international": {
+        "visitsPerYear": 99,
+        "program": "PriorityPass"
+      }
+    },
+    "forexMarkupPercentage": 1.5,
+    "cashWithdrawalFeePercentage": 2.5,
+    "milestoneRewards": [],
+    "verificationMetadata": {
+      "lastUpdated": "2026-08-19",
+      "verifiedBy": "CardOS Data Team",
+      "sourceDocumentUrl": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-credit-card",
+      "version": 1
+    }
+  }
+]
