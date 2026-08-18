@@ -1,0 +1,191 @@
+[
+  {
+    "id": "hdfc_infinia",
+    "bankId": "hdfc",
+    "bankName": "HDFC Bank",
+    "cardName": "HDFC Infinia Metal Edition",
+    "variantName": "Metal Edition",
+    "network": "Visa",
+    "tier": "SuperPremium",
+    "image": "/cards/hdfc-infinia.png",
+    "joiningFee": 12500,
+    "annualFee": 12500,
+    "annualFeeWaiverThreshold": 1000000,
+    "feeWaiverExclusions": ["Rent", "Wallet"],
+    "rewardCurrencyName": "Reward Points",
+    "baseRewardRatePercentage": 3.33,
+    "pointValuationINR": {
+      "flightRedemption": 1.00,
+      "hotelRedemption": 1.00,
+      "statementCredit": 0.30,
+      "voucherRedemption": 0.50
+    },
+    "acceleratedCategories": [
+      {
+        "category": "Travel & Hotels via SmartBuy",
+        "merchantName": "SmartBuy Flights & Hotels",
+        "multiplier": "5X",
+        "effectiveReturnPercentage": 16.65,
+        "monthlyCapPoints": 10000,
+        "conditions": "Max 10,000 accelerated points per calendar month"
+      },
+      {
+        "category": "Apple Products via SmartBuy",
+        "merchantName": "Imagine / Apple SmartBuy",
+        "multiplier": "5X",
+        "effectiveReturnPercentage": 16.65,
+        "monthlyCapPoints": 10000
+      }
+    ],
+    "excludedCategories": [
+      {
+        "category": "Fuel",
+        "mccCodes": ["5541", "5542"],
+        "earnsRewards": false,
+        "hasSurcharge": true,
+        "surchargeWaiverCapINR": 1000
+      },
+      {
+        "category": "Rent",
+        "mccCodes": ["6513"],
+        "earnsRewards": false,
+        "hasSurcharge": true
+      },
+      {
+        "category": "Wallet",
+        "mccCodes": ["6540"],
+        "earnsRewards": false,
+        "hasSurcharge": false
+      },
+      {
+        "category": "Government",
+        "mccCodes": ["9399", "9311"],
+        "earnsRewards": false,
+        "hasSurcharge": false
+      }
+    ],
+    "voucherMultipliers": [
+      {
+        "platform": "SmartBuy",
+        "partnerMerchant": "Amazon Gift Vouchers",
+        "multiplier": "3X",
+        "effectiveReturnPercentage": 9.99,
+        "monthlyCapINR": 10000
+      },
+      {
+        "platform": "SmartBuy",
+        "partnerMerchant": "Swiggy / Zomato Vouchers",
+        "multiplier": "5X",
+        "effectiveReturnPercentage": 16.65,
+        "monthlyCapINR": 5000
+      }
+    ],
+    "partnerTransfers": [
+      {
+        "programName": "Singapore Airlines KrisFlyer",
+        "category": "Airlines",
+        "ratioCardPoints": 1,
+        "ratioPartnerPoints": 1,
+        "minTransferBlock": 1000
+      },
+      {
+        "programName": "Accor Live Limitless",
+        "category": "Hotels",
+        "ratioCardPoints": 1,
+        "ratioPartnerPoints": 1,
+        "minTransferBlock": 1000
+      }
+    ],
+    "loungeAccess": {
+      "domestic": {
+        "visitsPerQuarter": 99,
+        "isSpendBased": false,
+        "guestAllowed": true
+      },
+      "international": {
+        "visitsPerYear": 99,
+        "program": "PriorityPass"
+      }
+    },
+    "forexMarkupPercentage": 2.0,
+    "cashWithdrawalFeePercentage": 2.5,
+    "milestoneRewards": [
+      {
+        "spendThresholdINR": 1000000,
+        "period": "Annual",
+        "rewardDescription": "12,500 Reward Points on Renewal",
+        "valueINR": 12500
+      }
+    ],
+    "verificationMetadata": {
+      "lastUpdated": "2026-08-19",
+      "verifiedBy": "CardOS Data Team",
+      "sourceDocumentUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/infinia-metal-edition",
+      "version": 1
+    }
+  },
+  {
+    "id": "hdfc_regalia_gold",
+    "bankId": "hdfc",
+    "bankName": "HDFC Bank",
+    "cardName": "HDFC Regalia Gold",
+    "variantName": "Plastic",
+    "network": "Visa",
+    "tier": "Premium",
+    "image": "/cards/hdfc-infinia.png",
+    "joiningFee": 2500,
+    "annualFee": 2500,
+    "annualFeeWaiverThreshold": 400000,
+    "feeWaiverExclusions": ["Rent", "Wallet"],
+    "rewardCurrencyName": "Reward Points",
+    "baseRewardRatePercentage": 1.33,
+    "pointValuationINR": {
+      "flightRedemption": 0.50,
+      "hotelRedemption": 0.50,
+      "statementCredit": 0.20,
+      "voucherRedemption": 0.35
+    },
+    "acceleratedCategories": [
+      {
+        "category": "Marks & Spencer, Myntra, Nykaa, Reliance Digital",
+        "multiplier": "5X",
+        "effectiveReturnPercentage": 6.65,
+        "monthlyCapPoints": 5000
+      }
+    ],
+    "excludedCategories": [
+      { "category": "Fuel", "earnsRewards": false, "hasSurcharge": true },
+      { "category": "Rent", "earnsRewards": false, "hasSurcharge": true }
+    ],
+    "voucherMultipliers": [],
+    "partnerTransfers": [],
+    "loungeAccess": {
+      "domestic": {
+        "visitsPerQuarter": 3,
+        "isSpendBased": true,
+        "quarterlySpendThresholdINR": 35000,
+        "guestAllowed": false
+      },
+      "international": {
+        "visitsPerYear": 6,
+        "program": "PriorityPass"
+      }
+    },
+    "forexMarkupPercentage": 2.0,
+    "cashWithdrawalFeePercentage": 2.5,
+    "milestoneRewards": [
+      {
+        "spendThresholdINR": 150000,
+        "period": "Quarterly",
+        "rewardDescription": "₹1,500 Voucher (Marriott/Myntra)",
+        "valueINR": 1500
+      }
+    ],
+    "verificationMetadata": {
+      "lastUpdated": "2026-08-19",
+      "verifiedBy": "CardOS Data Team",
+      "sourceDocumentUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold",
+      "version": 1
+    }
+  }
+]
